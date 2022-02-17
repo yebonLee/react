@@ -92,7 +92,11 @@ const Restaurant = (props) => {
   } else {
     return (
       <>
-        <p>loading...</p>
+        <Card>
+          <Card.Body>
+            <Card.Text>Loading...</Card.Text>
+          </Card.Body>
+        </Card>
       </>
     );
   }
